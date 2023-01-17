@@ -1,2 +1,2 @@
 # landing-page
-Project #2 from The Odin Project Curriculum. This website implements flexbox.
+Project #2 from The Odin Project Curriculum. This project is a test on CSS knowledge.
