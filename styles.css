@@ -16,7 +16,7 @@ a {
 }
 
 a.header-link {
-    color: #ccc;
+    color: #e5e7eb;
 }
 
 ul {
@@ -36,37 +36,20 @@ button {
     border-radius: 7px;
     width: 120px;
     flex-shrink: 0;
-}
-
-.container {
-    border: 4px solid blue;
-}
-
-.quote-container {
-    border: 4px solid aqua;
-}
-
-.cta-container {
-    border: 4px solid aqua;
-}
-
-.footer-container {
-    border: 4px solid aqua;
+    cursor: pointer;
 }
 
 /* header */
 .header-container {
-    border: 4px solid aqua;
     background-color: #1f2937;
     /* padding: top | right | bottom | left; */
-    padding: 16px 0 100px 0;
+    padding: 16px 0 200px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header-logo-links {
-    border: 4px solid palevioletred;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,19 +64,17 @@ button {
 
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 25px;
 }
 
 .hero {
-    border: 4px solid palevioletred;
     width: 900px;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .hero-content {
-    border: 4px solid yellow;
     width: 450px;
     padding: 0 8px 0 0;
 }
@@ -112,16 +93,13 @@ button {
 
 .header-image {
     width: 450px;
-    border: 4px solid yellow;
     padding: 0 0 0 8px;
 }
 
 /* information */
 .info-container {
-    border: 4px solid aqua;
-    background-color: #fff;
     /* padding: top | right | bottom | left; */
-    padding: 0 0 100px 0;
+    padding: 0 0 200px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,12 +109,10 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    /* padding: top/bottom | left/right; */
     padding: 32px 0;
 }
 
 .info {
-    border: 4px solid yellow;
     width: 900px;
     display: flex;
     justify-content: space-evenly;
@@ -145,7 +121,7 @@ button {
 .info-card {
     width: 150px;
     text-align: center;
-    color: #333;
+    color: #555;
 }
 
 .image-placeholder {
@@ -156,4 +132,74 @@ button {
     margin-bottom: 8px;
     /* temporary text color */
     color: #fff;
+}
+
+/* quote */
+.quote-container {
+    background-color: #e5e7eb;
+    /* padding: top/bottom | left/right; */
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: 500;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+/* CTA */
+.cta-container {
+    /* padding: top | right | bottom | left; */
+    padding: 100px 0 100px 0;
+}
+
+.cta {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-desc {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+.cta-button-signup {
+    border: 2px solid #f9faf8;
+    height: auto;
+}
+
+/* footer */
+.footer-container {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 32px 0;
+    text-align: center;
 }
