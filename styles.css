@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #3882f6;
 }
 
 a.header-link {
@@ -32,9 +33,9 @@ button {
     color: #f9faf8;
     font-size: 16px;
     font-weight: 700;
-    padding: 8px;
+    padding: 8px 32px;
     border-radius: 7px;
-    width: 120px;
+    width: auto;
     flex-shrink: 0;
     cursor: pointer;
 }
@@ -71,12 +72,13 @@ button {
     width: 1150px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 200px;
 }
 
 .hero-content {
     width: 575px;
-    padding: 0 8px 0 0;
+    padding: 0 32px 0 0;
 }
 
 .hero-message {
@@ -93,7 +95,7 @@ button {
 
 .header-image {
     width: 575px;
-    padding: 0 0 0 8px;
+    padding: 0 0 0 32px;
 }
 
 /* information */
@@ -167,6 +169,8 @@ button {
 .cta-container {
     /* padding: top | right | bottom | left; */
     padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .cta {
