@@ -8,8 +8,6 @@ body {
     background-color: #fff;
     color: #000;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
@@ -17,9 +15,8 @@ a {
     text-decoration: none;
 }
 
-a.header-links {
-    color: #e5e7eb;
-    font-size: 18px;
+a.header-link {
+    color: #ccc;
 }
 
 ul {
@@ -28,138 +25,135 @@ ul {
     padding: 0;
 }
 
-ul.header-links {
-    display: flex;
-    gap: 24px;
-}
-
 button {
-    background: #3882f6;
-    width: 110px;
-    padding: 8px;
-    /* top | right | bottom | left */
     font-family: 'Roboto', sans-serif;
-    color: #f9faf8;
-    font-weight: 700;
-    font-size: 16px;
-    border-radius: 8px;
+    background-color: #3882f6;
     border: none;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 7px;
+    width: 120px;
     flex-shrink: 0;
 }
 
-.header {
+.container {
+    border: 4px solid blue;
+}
+
+.quote-container {
+    border: 4px solid aqua;
+}
+
+.cta-container {
+    border: 4px solid aqua;
+}
+
+.footer-container {
+    border: 4px solid aqua;
+}
+
+/* header */
+.header-container {
+    border: 4px solid aqua;
     background-color: #1f2937;
+    /* padding: top | right | bottom | left; */
+    padding: 16px 0 100px 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    /* padding: top/bottom | left/right; */
-    padding: 16px 200px;
+    align-items: center;
 }
 
 .header-logo-links {
+    border: 4px solid palevioletred;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    align-items: center;
+    width: 900px;
 }
 
 .header-logo {
-    color: #f9faf8;
     font-size: 24px;
+    color: #f9faf8;
     font-weight: 700;
 }
 
-.header-content {
+.header-links {
     display: flex;
-    justify-content: space-between;
-    gap: 64px;
-    align-items: center;
-    margin-bottom: 100px;
+    gap: 16px;
 }
 
-.website-hero {
+.hero {
+    border: 4px solid palevioletred;
+    width: 900px;
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.hero-content {
+    border: 4px solid yellow;
+    width: 450px;
+    padding: 0 8px 0 0;
 }
 
 .hero-message {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    flex-wrap: wrap;
 }
 
 .hero-message-desc {
     font-size: 18px;
     color: #e5e7eb;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .header-image {
-    flex: 1;
-    width: 300px;
+    width: 450px;
+    border: 4px solid yellow;
+    padding: 0 0 0 8px;
 }
 
-.info {}
+/* information */
+.info-container {
+    border: 4px solid aqua;
+    background-color: #fff;
+    /* padding: top | right | bottom | left; */
+    padding: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .info-header-text {
-    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     /* padding: top/bottom | left/right; */
-    padding: 50px 200px;
+    padding: 32px 0;
 }
 
-.info-cards-container {
-   display: flex;
-   justify-content: center;
-   /* padding: top/bottom | left/right; */
-   padding: 0 200px;
-   gap: 50px;
-   margin-bottom: 100px;
+.info {
+    border: 4px solid yellow;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .info-card {
-    color: #555;
-    display: flex;
-    flex-direction: column;
     width: 150px;
     text-align: center;
+    color: #333;
 }
 
 .image-placeholder {
-    width: 150px;
     height: 150px;
-    border: 5px solid #3882f6;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    /* temporary text color */
     color: #fff;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
-.quote {
-    background-color: #e5e7eb;
-    /* padding: top/bottom | left/right; */
-    /* padding: 100px 200px; */
-}
-
-.quote-container {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.quote-author {
-    font-size: 24px;
-    font-weight: 700;
-    align-self: flex-end;
 }
