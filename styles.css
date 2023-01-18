@@ -33,7 +33,7 @@ button {
     color: #f9faf8;
     font-size: 16px;
     font-weight: 700;
-    padding: 8px 32px;
+    padding: 8px 24px;
     border-radius: 7px;
     width: auto;
     flex-shrink: 0;
@@ -44,7 +44,7 @@ button {
 .header-container {
     background-color: #1f2937;
     /* padding: top | right | bottom | left; */
-    padding: 16px 300px;
+    padding: 16px 200px;
 }
 
 .header-logo-links {
@@ -97,7 +97,7 @@ button {
 /* information */
 .info-container {
     /* padding: top | right | bottom | left; */
-    padding: 0 0 200px 0;
+    padding: 48px 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,13 +107,15 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding: 64px 0;
+    text-align: center;
 }
 
 .info {
-    width: 900px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 48px 0;
+    gap: 48px;
 }
 
 .info-card {
@@ -136,16 +138,17 @@ button {
 .quote-container {
     background-color: #e5e7eb;
     /* padding: top/bottom | left/right; */
-    padding: 200px 0;
+    padding: 96px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .quote {
-    width: 900px;
     display: flex;
     flex-direction: column;
+    padding: 0 100px;
+    gap: 8px;
 }
 
 .quote-text {
@@ -164,20 +167,20 @@ button {
 /* CTA */
 .cta-container {
     /* padding: top | right | bottom | left; */
-    padding: 100px 0 100px 0;
+    padding: 96px 200px;
     display: flex;
     justify-content: center;
 }
 
 .cta {
-    width: 1150px;
-    margin: 0 auto;
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 48px;
     border-radius: 10px;
+    gap: 16px;
+    width: 100%;
 }
 
 .cta-text {
@@ -193,7 +196,6 @@ button {
 
 .cta-button-signup {
     border: 2px solid #f9faf8;
-    height: auto;
 }
 
 /* footer */
