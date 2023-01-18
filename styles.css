@@ -44,17 +44,13 @@ button {
 .header-container {
     background-color: #1f2937;
     /* padding: top | right | bottom | left; */
-    padding: 16px 0 200px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 16px 300px;
 }
 
 .header-logo-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1150px;
 }
 
 .header-logo {
@@ -69,16 +65,17 @@ button {
 }
 
 .hero {
-    width: 1150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    gap: 48px;
+    padding: 200px 0;
 }
 
 .hero-content {
-    width: 575px;
-    padding: 0 32px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .hero-message {
@@ -90,12 +87,11 @@ button {
 .hero-message-desc {
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 15px;
 }
 
 .header-image {
-    width: 575px;
-    padding: 0 0 0 32px;
+    width: 50%;
+    flex-shrink: 0;
 }
 
 /* information */
